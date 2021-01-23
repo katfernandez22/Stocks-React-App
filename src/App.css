@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+/* header */
+.header {
+  background-color: #2a272aec;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header h1 {
+  color: white;
+  margin-left: 15px;
+}
+
+/* space */
+.space {
+  margin-top: 100px;
+}
+
+/* stock item style */
+.border {
+  border: 1px solid #4e4b4bc5;
+  width: 95%;
+  margin-left: 2.5%;
+  padding: 15px;
+  height: 80px;
+  box-sizing: border-box;
+}
+
+.border .left {
+  float: left;
+}
+
+.border .right {
+  float: right;
+}
+
+.border .left .stock_name {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.border .left .full_name {
+  color: #595959;
+}
+
+.border .right .green_percentage {
+  background-color: #5ec339;
+  padding: 6px;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.border .right .red_percentage {
+  background-color: #a22b17;
+  padding: 6px;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+/* search box style */
+
+.input {
+  width: 95%;
+  margin-left: 2.5%;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #282629;
+  border: none;
+  outline: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
